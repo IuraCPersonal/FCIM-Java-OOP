@@ -18,6 +18,4 @@ This repository contains homework assignments and laboratory works as Java Class
 
 ## Contact
 
----
-
 If you have a question, please contact me through email: `iurie.cius@isa.utm.md`.
