@@ -1,5 +1,3 @@
-from Student import Student
-
 class University:
 
     def __init__(self, name: str, year: int):
