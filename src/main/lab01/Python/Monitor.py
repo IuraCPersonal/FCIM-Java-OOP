@@ -1,4 +1,3 @@
-
 class Monitor:
 
     def __init__(self, color, dimension, resolution):
@@ -12,7 +11,3 @@ class Monitor:
             Dimension  : {self.dimension}
             Resolution : {self.resolution}
         """
-
-
-Samsung = Monitor("Gray", "32 inch", "1920x1080")
-print(Samsung)
