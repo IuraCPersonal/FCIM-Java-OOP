@@ -4,9 +4,9 @@ package main.lab01;
 
 public class Student {
 
-    String name;
-    int age;
-    double mark;
+    public String name;
+    public int age;
+    public double mark;
 
     Student(String name, int age, double mark) {
         this.name = name;
