@@ -16,6 +16,8 @@
 
 This repository contains homework assignments and laboratory works as Java Classes for the **OOP** course here at **UTM FCIM**.
 
+All the solutions are written in **Java** (required) and **Python** (optional).
+
 ## Contact
 
 If you have a question, please contact me through email: `iurie.cius@isa.utm.md`.
