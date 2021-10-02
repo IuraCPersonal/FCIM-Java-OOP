@@ -19,6 +19,11 @@ This repository contains homework assignments and laboratory works as Java Class
 
 All the solutions are written in **Java** (required) and **Python** (optional).
 
+## Progress
+
+- ✔ Lab 01
+- ⚠ Lab 02
+
 ## Contact
 
 If you have a question, please contact me through email: `iurie.cius@isa.utm.md`.
