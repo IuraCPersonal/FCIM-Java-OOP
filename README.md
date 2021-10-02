@@ -1,13 +1,3 @@
-<style>
-  code {
-    display:block;
-  }
-
-  #waifu {
-    text-align: center;
-    line-height: 20px;
-  }
-</style>
 <p align="center">
   <a>
     <img src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-1.png" alt="Logo" width="160" height="160">
@@ -31,7 +21,7 @@ All the solutions are written in **Java** (required) and **Python** (optional).
 
 If you have a question, please contact me through email: `iurie.cius@isa.utm.md`.
 
-<p id="waifu">
+<p id="waifu" align="center">
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⠿⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
