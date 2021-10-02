@@ -7,7 +7,7 @@
 <h3 align="center">FCIM FAF-203</h3>
 
   <div align="center">
-    <h3>OPP Laboratory Works</h3>
+    <h3>OPP Laboratory Works 🚀</h3>
     <h4>by Cius Iurie</h4>
     <br />
     <br />
