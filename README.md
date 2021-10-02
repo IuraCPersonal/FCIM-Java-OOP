@@ -13,6 +13,8 @@
   </div>
 </p>
 
+## About
+
 This repository contains homework assignments and laboratory works as Java Classes for the **OOP** course here at **UTM FCIM**.
 
 All the solutions are written in **Java** (required) and **Python** (optional).
