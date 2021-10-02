@@ -23,6 +23,7 @@ All the solutions are written in **Java** (required) and **Python** (optional).
 
 - ✔ Lab 01
 - ⚠ Lab 02
+- ⛔ Lab 03
 
 ## Contact
 
