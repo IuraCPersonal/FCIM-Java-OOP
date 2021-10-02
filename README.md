@@ -2,6 +2,9 @@
   <a>
     <img src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-1.png" alt="Logo" width="160" height="160">
   </a>
+  <a>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsos-software.com%2Fwp-content%2Fuploads%2FIntelliJ_IDEA_Logo.svg_.png&f=1&nofb=1" width="160" height="160">
+  </a>
 
 <h3 align="center">FCIM FAF-203</h3>
 
