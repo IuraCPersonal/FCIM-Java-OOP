@@ -23,7 +23,26 @@ public class Main {
         System.out.println("Area: " + Box3.Area());
         System.out.println("Volume: " + Box3.Volume());
 
-        Queue<Integer> q = new Queue<Integer>(4);
+        Queue<Integer> q1 = new Queue<Integer>(3);
+        Queue<String>  q2 = new Queue<String>();
+
+        q1.add(0);
+        q1.add(2);
+        q1.add(4);
+
+        q1.display(); // Before
+        Integer q1Last = q1.pop();
+        System.out.println(q1Last);
+        q1.display(); // After
+
+        q2.add("A");
+        q2.add("B");
+        q2.add("C");
+
+        q2.display(); // Before
+        String q2Last = q2.pop();
+        System.out.println(q2Last);
+        q2.display(); // After
 
     }
 

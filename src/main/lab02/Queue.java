@@ -9,6 +9,10 @@ public class Queue<T> {
     public Integer front = 0;
     public Integer index;
 
+    public Queue() {
+        this.queue = new Object[1000];
+    }
+
     public Queue(Integer max) {
         this.queue = new Object[max];
     }
@@ -24,6 +28,7 @@ public class Queue<T> {
     public void add(T element) {
         if (this.size == this.queue.length) {
             System.out.println("Queue is Full! Cannot add the element.");
+            return;
         }
 
         index = (front + this.size) % this.queue.length;

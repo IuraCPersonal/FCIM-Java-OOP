@@ -1,5 +1,7 @@
 package main.lab02;
 
+// The Box Class
+
 public class Box {
 
     public int height;
