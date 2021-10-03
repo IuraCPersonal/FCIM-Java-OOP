@@ -1,20 +1,70 @@
 package main.lab02;
 
-import java.util.Arrays;
+class Node<T> {
+
+    T value;
+    Node<T> next;
+
+    public Node(T value) {
+        this.value = value;
+        this.next = null;
+    }
+}
 
 public class Queue<T> {
 
-    public Object[] queue;
-    public Integer size = 0;
-    public Integer front = 0;
-    public Integer index;
+    Node<T> head;
+    Node<T> tail;
+
+    int size;
+    int maxSize;
 
     public Queue() {
-        this.queue = new Object[1000];
+        this.size = 0;
+        this.maxSize = Integer.MAX_VALUE;
+        this.head = this.tail = null;
     }
 
-    public Queue(Integer max) {
-        this.queue = new Object[max];
+    public Queue(Integer maxSize) {
+        this.size = 0;
+        this.maxSize = maxSize;
+        this.head = this.tail = null;
+    }
+
+    public void add(T element) throws Exception {
+
+        if (this.size == this.maxSize) {
+            throw new Exception("The queue is full");
+        } else {
+            Node<T> node = new Node<T>(element);
+
+            if (this.size == 0) {
+                this.head = this.tail = node;
+            } else {
+                this.tail.next = node;
+                this.tail = this.tail.next;
+            }
+
+            this.size++;
+        }
+    }
+
+    public T pop() throws Exception {
+
+        if (this.size == 0) {
+            throw new Exception("The queue is empty");
+        }
+
+        Node<T> node = this.head;
+        this.head = this.head.next;
+
+        this.size--;
+
+        if (this.size == 0) {
+            this.tail = null;
+        }
+
+        return node.value;
     }
 
     public boolean isEmpty() {
@@ -22,40 +72,7 @@ public class Queue<T> {
     }
 
     public boolean isFull() {
-        return this.size == this.queue.length;
+        return this.size == this.maxSize;
     }
-
-    public void add(T element) {
-        if (this.size == this.queue.length) {
-            System.out.println("Queue is Full! Cannot add the element.");
-            return;
-        }
-
-        index = (front + this.size) % this.queue.length;
-        this.queue[index] = element;
-        this.size++;
-    }
-
-    public T pop() {
-        if (this.size == 0) {
-            return null;
-        } else {
-            // Return the last not null element from the list
-            for (int i = this.queue.length - 1; i > -1; i--) {
-                if (this.queue[i] != null) {
-                    T elem = (T) queue[i];
-                    this.queue[i] = null;
-                    this.size--;
-                    return elem;
-                }
-            }
-        }
-        return null;
-    }
-
-    public void display() {
-        System.out.println(Arrays.toString(this.queue));
-    }
-
 }
 
