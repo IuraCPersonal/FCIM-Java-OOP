@@ -1,5 +1,7 @@
 package main.lab02;
 
+// Node Class
+
 class Node<T> {
 
     T value;
@@ -10,6 +12,8 @@ class Node<T> {
         this.next = null;
     }
 }
+
+// Queue Class
 
 public class Queue<T> {
 
