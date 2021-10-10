@@ -31,7 +31,7 @@ public class Main {
         q1.add(100);
         q1.add(1000);
 
-        System.out.println("Queue 1 is full: " + q1.isFull());
+        boolean q1Length = q1.isFull();
         System.out.println(q1.pop());
         System.out.println(q1.pop());
 
@@ -40,7 +40,7 @@ public class Main {
         q2.add("Skittle");
         q2.add("Lester");
 
-        System.out.println("Queue 2 is full: " + q2.isFull());
+        boolean q2Length = q2.isFull();
         System.out.println(q2.pop());
         System.out.println(q2.pop());
     }

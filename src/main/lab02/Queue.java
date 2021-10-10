@@ -76,7 +76,13 @@ public class Queue<T> {
     }
 
     public boolean isFull() {
-        return this.size == this.maxSize;
+        if (this.maxSize == Integer.MAX_VALUE) {
+            System.out.println("The queue is never full!");
+            return false;
+        } else {
+            System.out.println("The queue has: " + this.size + " elements.");
+            return true;
+        }
     }
 }
 
