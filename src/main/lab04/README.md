@@ -2,9 +2,9 @@
 
 #### TODO:
 
-- Write a program which would find if a mathematical expression is correct from the point of view of the parentheses within it (hint - use stack to store parentheses).
-- Read the expression from the file attached at this laboratory(one_expression.txt ) and print the result if the parentheses are put correct in this expression.
-- Do the same for a file with 3 expressions(three_expression.txt ) in it and print in console information about all of them if the parenthesis in it are put correct.
+- ~~Write a program which would find if a mathematical expression is correct from the point of view of the parentheses within it (hint - use stack to store parentheses).~~
+- ~~Read the expression from the file attached at this laboratory(one_expression.txt ) and print the result if the parentheses are put correct in this expression.~~
+- ~~Do the same for a file with 3 expressions(three_expression.txt ) in it and print in console information about all of them if the parenthesis in it are put correct.~~
 
 *One expression*
 
