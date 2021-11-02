@@ -20,7 +20,6 @@ public class Main {
                 q.add(String.valueOf(expression.charAt(i)));
             }
             if (expression.charAt(i) == ')') {
-
                 if (q.getLength() == 0) {
                     return false;
                 }
