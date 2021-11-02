@@ -1,6 +1,8 @@
 package main.lab04;
 import main.lab02.Queue;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -27,22 +29,26 @@ public class Main {
                 }
             }
         }
-        System.out.println(q.getLength());
         return q.getLength() == 0;
+    }
+
+    public static void checkFile(String filePath) throws Exception {
+        File expressionsFile = new File(filePath);
+        Scanner Reader = new Scanner(expressionsFile);
+        while (Reader.hasNextLine()) {
+            String data = Reader.nextLine();
+            System.out.println(data + " - " + (checkBalance(data) ? "BALANCED" : "UNBALANCED"));
+        }
+        Reader.close();
     }
 
     public static void main(String []args) throws Exception {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter expression: ");
-        String expr = sc.nextLine();
+        String oneExpression = "src/main/lab04/one_expression.txt";
+        String threeExpression = "src/main/lab04/three_expression.txt";
 
-        if (checkBalance(expr)) {
-            System.out.println("Balanced");
-        } else {
-            System.out.println("Unbalanced");
-        }
-
+        checkFile(oneExpression);
+        checkFile(threeExpression);
     }
 
 }
