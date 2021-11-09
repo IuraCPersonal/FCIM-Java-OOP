@@ -29,7 +29,8 @@ All the solutions are written in **Java** (required) and **Python** (optional).
 - ✔ Lab 03
 - ✔ Lab 04
 - ✔ Lab 05
-- ⚠ Lab 06
+- ✔ Lab 06
+- ⚠ Lab 07
 
 ## Contact
 
