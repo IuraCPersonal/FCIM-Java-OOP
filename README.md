@@ -30,7 +30,8 @@ All the solutions are written in **Java** (required) and **Python** (optional).
 - ✔ Lab 04
 - ✔ Lab 05
 - ✔ Lab 06
-- ⚠ Lab 07
+- ✔ Lab 07
+- ✔ Lab 08
 
 ## Contact
 
