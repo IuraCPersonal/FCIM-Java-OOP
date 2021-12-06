@@ -32,6 +32,7 @@ All the solutions are written in **Java** (required) and **Python** (optional).
 - ✔ Lab 06
 - ✔ Lab 07
 - ✔ Lab 08
+- ✔ Lab 09
 
 ## Contact
 
