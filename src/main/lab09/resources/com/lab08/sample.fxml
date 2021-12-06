@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.lab08.Controller">
+    <AnchorPane prefHeight="481.0" prefWidth="312.0"
+                style="-fx-background-color: #2E3440;" VBox.vgrow="ALWAYS">
+        <Label layoutX="543.0" layoutY="81.0" text="Dividend" textFill="#eceff4"/>
+        <Label layoutX="557.0" layoutY="137.0" text="Divisor" textFill="#eceff4"/>
+        <TextField fx:id="dividend" layoutX="445.0" layoutY="98.0"/>
+        <TextField fx:id="divisor" layoutX="445.0" layoutY="154.0" onKeyTyped="#isUnluckyNumber"/>
+        <TextArea fx:id="answer" editable="false" layoutX="29.0" layoutY="36.0" prefHeight="38.0"
+                  prefWidth="565.0"/>
+        <Button fx:id="resetAllBtn" onAction="#resetAppStateToInitial"
+                layoutX="445.0" layoutY="192.0" mnemonicParsing="false"
+                style="-fx-border-color: #ECEFF4; -fx-background-color: #2E3440; -fx-border-radius: 5px;"
+                text="C" textFill="#eceff4"/>
+        <Button fx:id="calculateBtn" onAction="#solveDivision" layoutX="480.0" layoutY="192.0"
+                mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0"
+                style="-fx-background-color: #2E3440; -fx-border-color: #ECEFF4; -fx-border-radius: 5px;"
+                text="=" textFill="#eceff4"/>
+        <TextArea fx:id="errorTextArea" editable="false" layoutX="30.0" layoutY="98.0" prefHeight="120.0"
+                  prefWidth="402.0"/>
+        <Label layoutX="285.0" layoutY="81.0"/>
+        <Label layoutX="30.0" layoutY="81.0" text="PROBLEMS" textFill="#eceff4"/>
+    </AnchorPane>
+</VBox>
