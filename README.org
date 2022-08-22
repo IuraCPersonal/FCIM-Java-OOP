@@ -1,0 +1,25 @@
+#+TITLE: OOP Laboratory Works
+#+AUTHOR: FCIM FAF-203 Cius Iurie
+#+DESCRIPTION: Homework Assignments for the OOP Course.
+
+* Introduction
+
+** About this Repository
+
+This repository contains homework assignments and laboratory works for the =OOP= course here at =TUM FCIM=.
+
+All the solutions are written in =Java=. 
+
+* Progress
+
++ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab01][Lab 01]]
++ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab02][Lab 02]]
++ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab03][Lab 03]]
++ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab04][Lab 04]]
++ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab05][Lab 05]]
++ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab06][Lab 06]]
++ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab07][Lab 07]]
+
+* Contact
+
+If you have any question, please contact me through email: =iurie.cius@isa.utm.md=.
