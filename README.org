@@ -1,25 +1,34 @@
-#+TITLE: OOP Laboratory Works
-#+AUTHOR: FCIM FAF-203 Cius Iurie
-#+DESCRIPTION: Homework Assignments for the OOP Course.
+#+TITLE: OBJECT-ORIENTED PROGRAMMING LABORATORY WORKS
+#+AUTHOR: FCIM FAF 203 Cius Iurie
 
-* Introduction
+** 👋 TABLE OF CONTENTS :toc:
+  - [[#-introduction][📑 INTRODUCTION]]
+  - [[#-progress][🎯 PROGRESS]]
+  - [[#-contact][📮 CONTACT]]
 
-** About this Repository
+** 📑 INTRODUCTION
+
+*** About this Repository
 
 This repository contains homework assignments and laboratory works for the =OOP= course here at =TUM FCIM=.
 
-All the solutions are written in =Java=. 
+All the solutions are written in =Java=.
 
-* Progress
+** 🎯 PROGRESS
 
-+ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab01][Lab 01]]
-+ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab02][Lab 02]]
-+ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab03][Lab 03]]
-+ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab04][Lab 04]]
-+ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab05][Lab 05]]
-+ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab06][Lab 06]]
-+ ✔ [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab07][Lab 07]]
+| Laboratory No. | Status | Grade  |
+|----------------+--------+--------|
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab01][LAB 01]]        | =DONE= | =10=    |
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab02][LAB 02]]        | =DONE= | =10=    |
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab03][LAB 03]]        | =DONE= | =10=    |
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab04][LAB 04]]        | =DONE= | =10=    |
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab05][LAB 05]]        | =DONE= | =10=    |
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab06][LAB 06]]        | =DONE= | =10=    |
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab07][LAB 07]]        | =DONE= | =10=    |
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab08][LAB 08]]        | =DONE= | =10=    |
+| [[https://github.com/IuraCPersonal/oop/tree/main/src/main/lab09][LAB 09]]        | =DONE= | =10=    |
+|----------------+--------+--------|
 
-* Contact
+** 📮 CONTACT
 
 If you have any question, please contact me through email: =iurie.cius@isa.utm.md=.
